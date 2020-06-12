@@ -1,9 +1,9 @@
 
 
 Pod::Spec.new do |s|
-  s.name             = 'zmm_test'
+  s.name             = 'zmmModuleBase'
   s.version          = '0.0.1'
-  s.summary          = 'zmm_test'
+  s.summary          = 'zmmModuleBase'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
 
   s.subspec 'Controller' do |ss|
-        ss.source_files = "zmm_test/Controller/**/*.{h,m}"
+        ss.source_files = "zmmModuleBase/Controller/**/*.{h,m}"
     end
     
 
