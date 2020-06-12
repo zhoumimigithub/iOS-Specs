@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
                        TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zhoumimigithub/zmm_test'
+  s.homepage         = 'https://github.com/zhoumimigithub/zmmModuleBase'
   s.license          = "MIT"
   s.author           = { 'zhoumimi' => '208855194@qq.com' }
-  s.source           = { :git => 'git@github.com:zhoumimigithub/zmm_test.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:zhoumimigithub/zmmModuleBase.git', :tag => s.version.to_s }
 
   s.platform         = :ios, "8.0"
 
