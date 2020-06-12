@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/zhoumimigithub/zmm_test'
-  s.license          = "MIT"
+  s.license          = " :type => 'MIT', :file => 'LICENSE'"
   s.author           = { 'zhoumimi' => '208855194@qq.com' }
   s.source           = { :git => 'https://github.com/zhoumimigithub/zmm_test.git', :tag => s.version.to_s }
 
