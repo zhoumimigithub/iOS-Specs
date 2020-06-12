@@ -28,9 +28,5 @@ Pod::Spec.new do |s|
         ss.source_files = "ModuleB-Component/Controller/**/*.{h,m}"
     end
     
-  s.subspec 'Target' do |ss|
-      ss.source_files = "ModuleB-Component/Target/**/*.{h,m}"
-      ss.dependency "ModuleB/Controller"
-  end
 
 end
