@@ -1,7 +1,7 @@
 
 
 Pod::Spec.new do |s|
-  s.name             = 'zmmtest'
+  s.name             = 'zmm_test'
   s.version          = '0.0.1'
   s.summary          = '测试 组件'
 
@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
                        TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zhoumimigithub/iOS-zmmtest'
+  s.homepage         = 'https://github.com/zhoumimigithub/zmm_test'
   s.license          = "MIT"
   s.author           = { 'hmm' => '208855194@qq.com' }
-  s.source           = { :git => 'git@github.com:zhoumimigithub/iOS-zmmtest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:zhoumimigithub/zmm_test.git', :tag => s.version.to_s }
 
   s.platform         = :ios, "8.0"
 
