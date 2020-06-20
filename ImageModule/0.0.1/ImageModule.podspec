@@ -22,9 +22,9 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
 
   s.subspec 'ColorFull' do |ss|
-        ss.source_files 		= "tree/ImageModule/ImageModule/ColorFull/**/*.{h,m}"
-  	ss.public_header_files     	= "tree/ImageModule/ImageModule/ColorFull/**/*.h"
-  	#ss.resource                	= "tree/ImageModule/ImageModule/ColorFull/ImageModule.bundle"
+        ss.source_files 		= "ImageModule/ColorFull/**/*.{h,m}"
+  	ss.public_header_files     	= "ImageModule/ColorFull/**/*.h"
+  	#ss.resource                	= "ImageModule/ColorFull/ImageModule.bundle"
   	ss.frameworks              	= "Foundation", "UIKit"
     end
     
